@@ -1,5 +1,7 @@
 # Project Manager Streamlit App
 
+**BEFORE USING**: Update the AdaLab URL to your corresponding installation in the script string defined in the `embed_script` function in `streamlit_app/components.py`.
+
 This repository contains a Streamlit app designed to help manage projects efficiently. The app is visually attractive and feature-rich, with various sections to provide a comprehensive project management experience.
 
 ## Project Structure
