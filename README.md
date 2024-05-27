@@ -1,6 +1,10 @@
 # Project Manager Streamlit App
 
-**BEFORE USING**: Update the AdaLab URL to your corresponding installation in the script string defined in the `embed_script` function in `streamlit_app/components.py`.
+## Before Using
+
+**IMPORTANT**: Update the AdaLab URL to your corresponding installation in the script string defined in the `embed_script` function in `streamlit_app/components.py`.
+
+The chatbot functionality of this app depends on a Workspace in an Anything LLM instance. For the purpose of this demo, a test Workspace was created using the information in this README. If you are using this project as a template for a different project, remember to create a workspace in the Anything LLM app deployed in your AdaLab and feed it with the documents relevant for your project. After that, go to the `Embedded Chat` tab in Configuration and click on the `Create embed` blue button to create a client for your Workspace. Once you have done this, copy the values for `data-embed-id`, `data-base-api-url`, and `src` into the corresponding entries in the fucntion `embed_script` in the `streamlit_app/components.py` file.
 
 This repository contains a Streamlit app designed to help manage projects efficiently. The app is visually attractive and feature-rich, with various sections to provide a comprehensive project management experience.
 
