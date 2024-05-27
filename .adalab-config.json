@@ -1,0 +1,25 @@
+{
+  "app_id": "1c9ad4a1-04fd-4115-8080-7c0970107b49",
+  "app_name": "App with Chatbot",
+  "app_image_name": "app_with_bot",
+  "app_description": "This is an analytics app with an embedded dedicated chat bot",
+  "app_url": "app-with-bot",
+  "stripped_prefix": true,
+  "port": null,
+  "replicas": 1,
+  "environment_variables": {},
+  "max_cpu": 1,
+  "min_cpu": 0,
+  "max_ram": 500,
+  "min_ram": 20,
+  "command": null,
+  "access_level": "public",
+  "acl_userlist": null,
+  "acl_group_names": null,
+  "idp_enabled": false,
+  "idp_scope": null,
+  "app_version": {
+    "current_app_version": "0.1.2",
+    "next_app_version": "0.1.3"
+  }
+}
